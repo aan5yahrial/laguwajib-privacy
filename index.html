@@ -12,57 +12,124 @@
   .muted{color:#666;font-size:.9rem}
   a{color:#1565c0}
   code{background:#f2f2f2;padding:1px 5px;border-radius:4px}
+  table{border-collapse:collapse;width:100%;margin:.8rem 0;font-size:.95rem}
+  th,td{border:1px solid #ddd;padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f7f7f7;font-weight:600}
+  .ya{color:#1b5e20;font-weight:600}
+  .wrap{overflow-x:auto}
 </style>
 </head>
 <body>
   <h1>Kebijakan Privasi</h1>
   <p class="muted">Aplikasi: <strong>Tebak Lirik Lagu Wajib</strong> (com.isengdev.laguwajib)<br>
-  Pengembang: IsengDev &middot; Terakhir diperbarui: 18 Juli 2026</p>
+  Pengembang: IsengDev &middot; Terakhir diperbarui: 10 September 2026</p>
 
   <p>Kebijakan Privasi ini menjelaskan bagaimana aplikasi <strong>Tebak Lirik Lagu Wajib</strong>
-  ("Aplikasi") menangani informasi. Dengan menggunakan Aplikasi, Anda menyetujui praktik
-  yang dijelaskan di halaman ini.</p>
+  ("Aplikasi") menangani informasi. Halaman ini ditulis agar sesuai dengan deklarasi
+  <strong>Keamanan Data</strong> yang kami isi di Google Play Console. Dengan menggunakan
+  Aplikasi, Anda menyetujui praktik yang dijelaskan di sini.</p>
 
-  <h2>1. Data yang Kami Kumpulkan</h2>
-  <p>Aplikasi <strong>tidak meminta pendaftaran</strong> dan <strong>tidak mengumpulkan data
-  pribadi</strong> (seperti nama, email, atau nomor telepon) secara langsung dari Anda.
-  Skor dan progres permainan disimpan hanya di perangkat Anda.</p>
-  <p>Namun, Aplikasi menampilkan iklan melalui <strong>Google AdMob</strong>. Layanan iklan
-  pihak ketiga ini dapat mengumpulkan dan memproses data tertentu secara otomatis, antara lain:</p>
+  <h2>1. Ringkasan</h2>
+  <p>Aplikasi <strong>tidak meminta pendaftaran</strong> dan kami sebagai pengembang
+  <strong>tidak mengumpulkan data pribadi</strong> (nama, email, nomor telepon) dari Anda,
+  serta tidak memiliki server sendiri. Namun Aplikasi menampilkan iklan melalui
+  <strong>Google AdMob</strong>, dan SDK iklan tersebut <strong>mengumpulkan</strong> data
+  tertentu secara otomatis dari perangkat Anda lalu <strong>membagikannya</strong> kepada
+  Google sebagai mitra periklanan. Rinciannya ada di bagian 2.</p>
+
+  <h2>2. Data yang Dikumpulkan dan Dibagikan</h2>
+  <p>Melalui Google AdMob, jenis data berikut dikumpulkan dari perangkat Anda dan dibagikan
+  kepada Google untuk keperluan periklanan:</p>
+  <div class="wrap">
+  <table>
+    <thead>
+      <tr><th>Jenis data</th><th>Dikumpulkan</th><th>Dibagikan</th><th>Tujuan</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Pengenal iklan (Advertising ID)</strong> dan pengenal perangkat lainnya</td>
+        <td class="ya">Ya</td><td class="ya">Ya</td>
+        <td>Menampilkan iklan, membatasi frekuensi iklan, mencegah penipuan</td>
+      </tr>
+      <tr>
+        <td><strong>Lokasi perkiraan</strong> (berdasarkan alamat IP, bukan GPS)</td>
+        <td class="ya">Ya</td><td class="ya">Ya</td>
+        <td>Menampilkan iklan yang relevan secara wilayah</td>
+      </tr>
+      <tr>
+        <td><strong>Aktivitas dalam aplikasi dan interaksi iklan</strong>, serta informasi
+        perangkat (model, sistem operasi, versi)</td>
+        <td class="ya">Ya</td><td class="ya">Ya</td>
+        <td>Mengukur kinerja iklan, mencegah penipuan dan penyalahgunaan</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Aplikasi <strong>tidak meminta izin lokasi presisi (GPS)</strong>, tidak mengakses kontak,
+  kamera, mikrofon, foto, maupun berkas Anda. Izin yang diminta hanya akses internet dan status
+  jaringan, keduanya semata-mata untuk memuat iklan.</p>
+  <p>Aplikasi <strong>tidak menggunakan</strong> layanan analitik pihak ketiga (seperti Google
+  Analytics atau Firebase) dan tidak memiliki fitur akun, login, maupun papan skor daring.</p>
+
+  <h2>3. Data yang Tersimpan Hanya di Perangkat Anda</h2>
+  <p>Hal-hal berikut disimpan secara lokal di perangkat Anda dan <strong>tidak pernah dikirim
+  ke mana pun</strong> — tidak kepada kami maupun pihak ketiga:</p>
   <ul>
-    <li>Pengenal iklan (Advertising ID) dan pengenal perangkat</li>
-    <li>Informasi perangkat (model, sistem operasi, versi)</li>
-    <li>Perkiraan lokasi umum (berdasarkan alamat IP)</li>
-    <li>Data penggunaan dan interaksi dengan iklan</li>
+    <li>Progres permainan: lagu yang sudah dituntaskan, jumlah bintang, dan skor tertinggi</li>
+    <li>Catatan Tantangan Harian: hitungan hari beruntun, rekor, dan riwayat tujuh hari terakhir</li>
+    <li>Setelan: sakelar musik, efek suara, dan mode permainan</li>
   </ul>
+  <p>Data ini ikut terhapus bila Anda menghapus Aplikasi atau membersihkan datanya lewat
+  <em>Setelan &rsaquo; Aplikasi &rsaquo; Tebak Lirik Lagu Wajib &rsaquo; Penyimpanan &rsaquo;
+  Hapus data</em>.</p>
 
-  <h2>2. Tujuan Penggunaan Data</h2>
-  <p>Data yang dikumpulkan oleh layanan pihak ketiga digunakan untuk menampilkan iklan
-  (termasuk iklan yang lebih relevan), mengukur kinerja iklan, serta mencegah penipuan dan
-  penyalahgunaan.</p>
-
-  <h2>3. Layanan Pihak Ketiga</h2>
-  <p>Aplikasi menggunakan <strong>Google AdMob</strong>. Pengumpulan dan penggunaan data oleh
-  Google diatur dalam kebijakan privasi mereka:</p>
+  <h2>4. Layanan Pihak Ketiga</h2>
+  <p>Satu-satunya layanan pihak ketiga yang digunakan Aplikasi adalah <strong>Google AdMob</strong>.
+  Pengumpulan, penggunaan, penyimpanan, dan masa simpan data oleh Google diatur dalam kebijakan
+  mereka sendiri:</p>
   <ul>
     <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Kebijakan Privasi Google</a></li>
     <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Cara Google menggunakan data pada AdMob</a></li>
   </ul>
 
-  <h2>4. Privasi Anak</h2>
-  <p>Aplikasi tidak ditujukan khusus untuk anak di bawah 13 tahun dan tidak mengumpulkan data
-  pribadi anak secara sengaja. Jika Anda yakin seorang anak memberikan data kepada kami,
-  silakan hubungi kami agar dapat dihapus.</p>
+  <h2>5. Pilihan dan Kontrol Anda</h2>
+  <p>Anda dapat membatasi penggunaan data periklanan kapan saja langsung dari perangkat Anda,
+  tanpa perlu menghubungi kami:</p>
+  <ul>
+    <li><strong>Menyetel ulang atau menghapus Advertising ID:</strong> buka
+    <em>Setelan &rsaquo; Google &rsaquo; Iklan</em> (letaknya bisa sedikit berbeda antar merek HP),
+    lalu pilih <em>Setel ulang ID iklan</em> atau <em>Hapus ID iklan</em>. Menghapusnya membuat
+    iklan tetap tampil tetapi tidak lagi dipersonalisasi.</li>
+    <li><strong>Menonaktifkan personalisasi iklan:</strong> di layar yang sama, aktifkan
+    <em>Nonaktifkan personalisasi iklan</em>.</li>
+    <li><strong>Menghapus data lokal:</strong> hapus data Aplikasi atau copot pemasangannya
+    seperti dijelaskan di bagian 3.</li>
+  </ul>
+  <p>Karena kami tidak menyimpan data apa pun di sisi kami, tidak ada akun atau basis data
+  yang perlu dihapus atas permintaan. Bila Anda ingin menghapus data yang telah dikumpulkan
+  Google, gunakan kontrol pada tautan di bagian 4.</p>
 
-  <h2>5. Keamanan Data</h2>
-  <p>Karena Aplikasi tidak menyimpan data pribadi di server kami, risiko kebocoran data pribadi
-  dari sisi kami sangat minim. Data periklanan ditangani oleh Google sesuai standar keamanan mereka.</p>
+  <h2>6. Keamanan dan Masa Simpan Data</h2>
+  <p>Data periklanan dikirim ke Google melalui koneksi terenkripsi (HTTPS) oleh SDK AdMob.
+  Kami tidak menyimpan data pribadi di server kami — kami memang tidak punya server — sehingga
+  tidak ada basis data di sisi kami yang bisa bocor. Masa simpan data periklanan ditentukan
+  dan dikelola oleh Google sesuai kebijakan mereka.</p>
 
-  <h2>6. Perubahan Kebijakan</h2>
-  <p>Kebijakan ini dapat diperbarui sewaktu-waktu. Perubahan akan dipublikasikan di halaman ini
-  dengan tanggal pembaruan yang baru.</p>
+  <h2>7. Privasi Anak</h2>
+  <p>Aplikasi tidak ditujukan khusus untuk anak di bawah 13 tahun dan kami tidak dengan sengaja
+  mengumpulkan data pribadi anak. Aplikasi tidak meminta nama, email, atau informasi identitas
+  apa pun dari penggunanya. Jika Anda orang tua atau wali dan yakin seorang anak telah
+  memberikan data kepada kami, silakan hubungi kami melalui alamat di bagian 9 agar data
+  tersebut dapat dihapus. Orang tua yang ingin membatasi iklan yang dipersonalisasi untuk anak
+  dapat mengikuti langkah pada bagian 5.</p>
 
-  <h2>7. Kontak</h2>
+  <h2>8. Perubahan Kebijakan</h2>
+  <p>Kebijakan ini dapat diperbarui sewaktu-waktu, misalnya bila Aplikasi menambah layanan baru.
+  Perubahan akan dipublikasikan di halaman ini dengan tanggal pembaruan yang baru. Perubahan
+  yang menyangkut jenis data yang dikumpulkan akan disertai pembaruan deklarasi Keamanan Data
+  di Google Play.</p>
+
+  <h2>9. Kontak</h2>
   <p>Jika ada pertanyaan tentang Kebijakan Privasi ini, hubungi:<br>
   <strong>Email:</strong> <a href="mailto:syahrialaan118@gmail.com">syahrialaan118@gmail.com</a></p>
 </body>
